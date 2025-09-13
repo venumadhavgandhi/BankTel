@@ -16,6 +16,10 @@ namespace BankTel
             Class1 obj = new Class1();
             obj.GetBalance(x);
             Console.WriteLine(" End");
+            obj.GetBalance(x);
+            Console.WriteLine(" End");
+            Console.WriteLine(" Youare into ");
+            Console.ReadLine();
         }
     }
 }
